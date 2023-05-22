@@ -1,13 +1,12 @@
 {
-  "homepage": "http://karmint26.github.io/React-CNN-API",
+  "homepage": "https://karmint26.github.io/React-CNN-API",
   "name": "react-api-cnnnews",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d deploy",
+    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
