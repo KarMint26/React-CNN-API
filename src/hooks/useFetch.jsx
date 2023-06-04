@@ -15,8 +15,8 @@ const useFetch = () => {
           console.log(response.data.data);
         })
         .catch((err) => console.log(err.message));
-    }, []);
-  }, 2000);
+    }, 3000);
+  }, []);
   return { loading, response };
 };
 
